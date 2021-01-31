@@ -2,8 +2,8 @@
   <div class="loginscreen">
       <div class="form-side">
         <div class="form-section">
-          <h1>Sign Up</h1>
-          <p class="signup-p">Give us some of your information to get free access</p>
+          <h1>Sign in</h1>
+          <p class="signup-p">Login using email and password</p>
           <form @submit.prevent="loginUser">
             <div class="form-group">
               <label for="name"> Your e-mail </label>
@@ -14,16 +14,9 @@
               <input type="password" name="password" v-model="form.password" value="">
             </div>
             <div class="form-group">
-              <label>
-                <input type="checkbox" name="" value="">
-                By creating an account you agree to the terms of use and privacy policy
-              </label>
-            </div>
-            <div class="form-group">
-              <button  type="submit" name="button">Create Account</button>
+              <button  type="submit" name="button">Sign in</button>
             </div>
           </form>
-          <p class="login_p">Already have an account <a href="#">Log in</a></p>
         </div>
       </div>
       <div class="imagescreen">
